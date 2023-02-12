@@ -16,6 +16,6 @@ jobs:
           script: |
             cd ~/apps/ga-ci-cd-nodejs
             git pull origin main
-            #git status
-            #npm install --only=prod
+            git status
+            npm install --only=prod
             #pm2 restart cicdApp
