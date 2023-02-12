@@ -5,7 +5,7 @@ const request = supertest(app)
 it('Call the /cicd endpoint', async done => {
     const res = await request.get('/cicd')
     expect(res.status).toBe(200)
-    expect(res.text).toBe('Hello, CI/CD indonesia!')
+    expect(res.text).toBe('Hello, CI/CD Indonesia!')
     done()
 })
 it('Call the /youtube endpoint', async done => {
