@@ -15,8 +15,7 @@ jobs:
           port: 22
           script: |
             cd ~/apps/ga-ci-cd-nodejs
-            whoami
-            #git pull origin main
+            git pull origin main
             #git status
             #npm install --only=prod
             #pm2 restart cicdApp
